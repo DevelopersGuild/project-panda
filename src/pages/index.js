@@ -1,6 +1,7 @@
 import React from "react"
 import { StyleSheet, css } from "aphrodite"
 import Navigation from "../components/navigation"
+import CodeDemo from "../components/code-demo"
 
 export default function Home() {
   return (
@@ -44,6 +45,9 @@ export default function Home() {
             </button>
           </div>
         </div>
+        <br />
+        <CodeDemo />
+        <br />
       </div>
     </>
   )
