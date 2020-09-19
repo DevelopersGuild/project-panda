@@ -1,3 +1,5 @@
+import "jquery/dist/jquery"
+import "@popperjs/core/dist/cjs/popper"
+import "bootstrap/dist/js/bootstrap.bundle"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./src/styles/global.scss"
-import "bootstrap/"
