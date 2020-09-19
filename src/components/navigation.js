@@ -9,6 +9,11 @@ export default function () {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto" style={{ color: "black", fontWeight: "bold" }}>
           <Nav.Item>
+            <Link className="nav-link zendo-nav-link" to="/">
+              <strong>Developers Guild</strong>
+            </Link>
+          </Nav.Item>
+          <Nav.Item>
             <Link className="nav-link zendo-nav-link" to="/about">
               About
             </Link>
@@ -16,16 +21,6 @@ export default function () {
           <Nav.Item>
             <Link className="nav-link zendo-nav-link" to="/contributing">
               Contributing
-            </Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Link className="nav-link zendo-nav-link" to="/contact">
-              Contact
-            </Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Link className="nav-link zendo-nav-link" to="/roles">
-              Roles
             </Link>
           </Nav.Item>
           <Nav.Item>
